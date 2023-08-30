@@ -330,7 +330,7 @@ def run_simulation(genomes, config):
         clock.tick(60)  # 60 FPS
 
 
-""" 1. This Section:
+""" 1. This Section: main program configs everything
     
 """
 if __name__ == "__main__":
