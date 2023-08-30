@@ -1,7 +1,7 @@
 # This Code is Heavily Inspired By The YouTuber: Cheesy AI
 # Code Changed, Optimized And Commented By: NeuralNine (Florian Dedov)
 # This code has again been hoisted by the CGS Digital Innovation Department
-# giving credit to the above authors for the benfit of our education in ML
+# giving credit to the above authors for the benefit of our education in ML
 
 import math
 import random
@@ -37,7 +37,9 @@ why it is necessary and where it is being used in the rest of the program.
 
 
 class Car:
-    """1. This Function:"""
+    """ 1. This Function:
+        Uses the constructor method (__init__) to initialise the attributes of the object 'self'. The sprite attribute 
+    """
 
     def __init__(self):
         # Load Car Sprite and Rotate
