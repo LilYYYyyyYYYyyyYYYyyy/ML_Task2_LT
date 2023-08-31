@@ -38,10 +38,6 @@ why it is necessary and where it is being used in the rest of the program.
 
 class Car:
     """ 1. This Function:
-        Uses the constructor method (__init__) to initialise the attributes of the object/instance in the class 'car'. The sprite attribute,
-        which is the 2D representation of something on a screen, is set and loaded as the car.png image and scaled. The car's other 
-        default attributes are set: .position - sets the car's starting position in the correct spot on the road (black) so that the
-        algorithm has a chance to learn
     """
 
     def __init__(self):
@@ -241,7 +237,7 @@ class Car:
         return rotated_image
 
 
-""" This Function:
+""" 11. This Function:
 
 """
 
@@ -335,7 +331,7 @@ def run_simulation(genomes, config):
         clock.tick(60)  # 60 FPS
 
 
-""" 1. This Section: main program configs everything
+""" 12. This Section: main program configs everything
     
 """
 if __name__ == "__main__":
