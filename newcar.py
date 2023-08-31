@@ -40,7 +40,8 @@ class Car:
     """ 1. This Function:
         Uses the constructor method (__init__) to initialise the attributes of the object/instance in the class 'car'. The sprite attribute,
         which is the 2D representation of something on a screen, is set and loaded as the car.png image and scaled. The car's other 
-        default attributes are set: .position - sets 
+        default attributes are set: .position - sets the car's starting position in the correct spot on the road (black) so that the
+        algorithm has a chance to learn
     """
 
     def __init__(self):
