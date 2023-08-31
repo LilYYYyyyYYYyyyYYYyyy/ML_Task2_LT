@@ -38,7 +38,9 @@ why it is necessary and where it is being used in the rest of the program.
 
 class Car:
     """ 1. This Function:
-        Uses the constructor method (__init__) to initialise the attributes of the object 'self'. The sprite attribute 
+        Uses the constructor method (__init__) to initialise the attributes of the object/instance in the class 'car'. The sprite attribute,
+        which is the 2D representation of something on a screen, is set and loaded as the car.png image and scaled. The car's other 
+        default attributes are set: .position - sets 
     """
 
     def __init__(self):
